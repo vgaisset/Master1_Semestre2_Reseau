@@ -38,23 +38,13 @@ Il s'agit d'un [IGP](#IGP-et-EGP) se basant sur LSR protocol lui aussi. Il est l
 
 Décrit par:
 
-* 7: [APPLICATION](#Application-7)
-* 6: [PRESENTATION](#Session-5-et-6)
-* 5: [SESSION](#Session-5-et-6)
-* 4: [TRANSPORT](#Transport-4)
-* 3: [RESEAU](#Réseau-3)
-* 2: [LIAISON DE DONNEES](#Liaison-de-données-2)
-* 1: [PHYSIQUE](#Physique-1)
-
-<ul>
-  <li>7 : APPLICATION</li>
-  <li>6 : PRESENTATION</li>
-  <li>5 : SESSION</li>
-  <li>4 : TRANSPORT</li>
-  <li>3 : RESEAUX</li>
-  <li>2 : LIAISON DE DONNEES</li>
-  <li>1 : PHYSIQUE</li>
-</ul>
+* 7 : [APPLICATION](#Application-7)
+* 6 : [PRESENTATION](#Session-5-et-6)
+* 5 : [SESSION](#Session-5-et-6)
+* 4 : [TRANSPORT](#Transport-4)
+* 3 : [RESEAU](#Réseau-3)
+* 2 : [LIAISON DE DONNEES](#Liaison-de-données-2)
+* 1 : [PHYSIQUE](#Physique-1)
 
 > Dans ce modèle par couche, chaque couche utilise le service proposé par la couche inférieure, et donc fournit un service à la couche supérieure. Valable aussi pour [TCP/IP](#TCP/IP).
 
