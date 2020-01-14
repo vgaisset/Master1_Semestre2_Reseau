@@ -89,6 +89,13 @@ C'est un identifiant unique associé à un network interface controller (**NIC**
 
 ## TCP/IP
 
+| OSI         | TCP/IP      |
+|-------------|-------------|
+| [APPLICATION](#Application-7) <br> [PRESENTATION](#Session-5-et-6) <br> [SESSION](#Session-5-et-6) | Application|
+| [TRANSPORT](#Transport-4) | Transport |
+| [RESEAU](#Réseau-3) | Internet |
+| [LIAISON DE DONNEES](#Liaison-de-données-2) <br> [PHYSIQUE](#Physique-1) | Accès |
+
 <div style="text-align:center"><img src="../administration_des_reseaux/assets/tcp_ip.png"/>
 </div>
 
