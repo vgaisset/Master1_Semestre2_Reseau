@@ -96,6 +96,4 @@ C'est un identifiant unique associé à un network interface controller (**NIC**
 | [RESEAU](#Réseau-3) | Internet |
 | [LIAISON DE DONNEES](#Liaison-de-données-2) <br> [PHYSIQUE](#Physique-1) | Accès |
 
-<div style="text-align:center"><img src="../administration_des_reseaux/assets/tcp_ip.png"/>
-</div>
-
+<div style="text-align:center"><img src="assets/tcp_ip.png"/></div>
