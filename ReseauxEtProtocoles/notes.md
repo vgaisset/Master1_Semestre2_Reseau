@@ -97,3 +97,30 @@ C'est un identifiant unique associé à un network interface controller (**NIC**
 | [LIAISON DE DONNEES](#Liaison-de-données-2) <br> [PHYSIQUE](#Physique-1) | Accès |
 
 <div style="text-align:center"><img src="assets/tcp_ip.png"/></div>
+
+## HUB (concentrateur)
+
+Propage les trames reçues à tout le monde.
+
+## switch (commutateur)
+
+Ne possède pas d'adresse MAC.
+
+Regarde l'adresse MAC de destination, et envoie la trame seulement au destinataire.
+
+Chaque port du switch est donc associé à une adresse MAC :
+
+|MAC|Port|
+|---|----|
+|@a|p1|
+|@b|p2|
+
+Ce système évite les collisions.
+
+Possède un buffer pour mettre en attente des trames si nécessaire.
+
+## IP
+
+### Flags
+
+* DF vaut 1 si la trame ne doit pas être fragmentée.
