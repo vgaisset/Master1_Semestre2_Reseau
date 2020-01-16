@@ -119,6 +119,8 @@ Ce système évite les collisions.
 
 Possède un buffer pour mettre en attente des trames si nécessaire.
 
+Un switch ne doit pas être branché à un autre switch.
+
 ## IP
 
 ### Flags
