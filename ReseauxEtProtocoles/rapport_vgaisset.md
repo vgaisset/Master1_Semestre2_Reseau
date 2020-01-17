@@ -85,3 +85,25 @@ L'option **-a** permet de récupérer les informations depuis des miroirs.
 > A faire
 
 ### Question 8
+
+|Nom|Adresse|
+|---|---|
+|www.labri.fr|147.210.8.59|
+|www.u-bordeaux.fr (alias : v-frtwww.01.u-bordeaux.fr)|147.210.215.26|
+|b3a1.emi.u-bordeaux.fr|147.210.12.254|
+
+### Question 9
+
+Contrairement à la commande précédente, **dig** semble montrer les sous-domaines (et leurs adresses IPv4 et IPv6) liés au nom recherché.
+
+Adresse du serveur de nom : 10.0.220.13
+
+> A terminer
+
+### Question 10
+
+Les connexions actives sont les connexions avec l'état **ESTABLISHED**. Les connexions en attente sont les autres (état **TIME_WAIT**).
+
+> Ne vois pas la connexion SSH avec netstat
+
+L'option **-a** permet d'afficher les "serveurs". Cela semble être les sockets UDP et les sockets TCP qui écoutent.
