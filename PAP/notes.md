@@ -20,6 +20,4 @@ Cette loi permet de calculer **l'accéleration** (speedup) d'un programme parall
 
 accéleration = temps meilleur programme séquentiel / temps meilleur programme parallèle
 
-<div style="text-align:center"><img src="assets/acceleration.png"/></div>
-
-<div style="text-align:center"><img src="assets/acceleration_limit.png"/></div>
+![](assets/amdahl.png)
