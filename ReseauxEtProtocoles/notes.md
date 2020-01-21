@@ -34,7 +34,7 @@ Il s'agit d'un [IGP](#IGP-et-EGP) se basant sur LSR protocol lui aussi. Il est l
 
 ---
 
-##  Open Systems Interconnection model (OSI model)
+## Open Systems Interconnection model (OSI model)
 
 Décrit par:
 
