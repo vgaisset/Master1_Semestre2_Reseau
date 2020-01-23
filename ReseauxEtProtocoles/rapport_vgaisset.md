@@ -107,3 +107,28 @@ Les connexions actives sont les connexions avec l'état **ESTABLISHED**. Les con
 > Ne vois pas la connexion SSH avec netstat
 
 L'option **-a** permet d'afficher les "serveurs". Cela semble être les sockets UDP et les sockets TCP qui écoutent.
+
+### Question 11
+
+|Commande Windows|Commande Linux|
+|---|---|
+|ipconfig|ifconfig|
+|arp -a|arp -a|
+|netstat|netstat|
+|netstat -a|netstat -a|
+|tracert \<host\>|traceroute \<host\>|
+|hostname|hostname|
+|ping|ping|
+|nslookup  \<hostname>|host \<hostname>|
+|route PRINT|route|
+
+## 3 - Traces et encapsulation
+
+### Question 1
+
+L'adresse MAC est répétée car ARP (couche 3) n'a pas accès à l'adresse MAC contenue dans l'en-tête ethernet (couche 2).
+
+L'adresse 00:00:00:00:00:00 est utilisée car on cherche justement cette adresse MAC.
+On peut noter que la trame ethernet fait toujours 64 octets. De ce fait, une trame ARP est toujours bourrée à la fin.
+
+Le protocole VRRP permet d'avoir une seule passerelle sur des adresse MAC et IP virtuelles.
