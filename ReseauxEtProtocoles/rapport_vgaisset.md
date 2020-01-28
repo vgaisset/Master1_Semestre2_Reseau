@@ -6,13 +6,12 @@
 
 |Interface|Adresse IP|Masque de sous-réseau|Passerelle par défaut|Taille maximale d'un paquet|
 |--|--|--|--|--|
-|br0||||1500|
-|eth0|10.0.203.5|255.255.255.0|10.0.203.254|9000|
+|eth0|10.0.203.5|255.255.255.0|10.0.203.254|9000 (jumbo ethernet)|
 |lo|127.0.0.1|255.0.0.0||65536|
 
 Commandes (ifconfig) :
  * /sbin/ifconfig
- * /usr/sbin/arp
+ * /usr/sbin/route
 
 Commandes (ip) :
  * ip address
@@ -33,6 +32,8 @@ Commandes (ip) :
 **Eteindre l'interface** : ip link set eth0 **down**
 
 **Allumer l'interface** : ip link set eth0 **up**
+
+Ces commandes ne peuvent pas être exécutées, elles nécessitent les droits d'administrateur.
 
 ### Question 3 :
 
